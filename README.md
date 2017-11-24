@@ -1,6 +1,4 @@
-# SMTP
-
-Smtp server and relay.
+# Privoxy
 
 ## Run
 
