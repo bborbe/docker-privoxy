@@ -7,7 +7,7 @@ clean:
 	docker rmi $(REGISTRY)/bborbe/privoxy:$(VERSION)
 
 build:
-	docker build --build-arg VERSION=$(VERSION) --no-cache --rm=true -t $(REGISTRY)/bborbe/privoxy:$(VERSION) .
+	docker build --no-cache --rm=true -t $(REGISTRY)/bborbe/privoxy:$(VERSION) .
 
 run:
 	docker run \
